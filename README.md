@@ -43,8 +43,6 @@ Main Problems with Knowledge-Based Authentication
   • Reliant on the strength of the password
   • Can be guessable or searchable
 
-
-
 Ownership-Based Authentication
 Verifying users' identities based on whether or not they have something:
 
