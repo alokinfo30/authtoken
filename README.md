@@ -11,15 +11,15 @@ User Authentication Management using JSON WEB Token, Email Verification Process,
     b) **BackEnd** In signup, login & user-info update pages
     
 => Email Verification Process using Twillio Sendgrid mail & uuid packages
-    a) **FrontEnd**: In signup, verifyemail, pleasevarify, sendemails & user-info pages
-    b) **BackEnd** In signup, verifyemail & user-info update pages
+    a) **FrontEnd**: In signup, verify email, pleasevarify, sendemails & user-info pages
+    b) **BackEnd** In signup, verify email & user-info update pages
 
 => Reset Password Steps
     a) **FrontEnd**: In ForgetPwd, ResetPwd pages
     b) **BackEnd** In ForgetPwd, ResetPwd  update pages
 
-=> OAuth using google api libraries
-    a) **FrontEnd**: In oAuthurl, getUser, OauthClient, updateoath pages
+=> OAuth using Google API libraries
+    a) **FrontEnd**: In oAuthurl, getUser, OauthClient, update-oath pages
     b) **BackEnd** In oAuthurl, Callback  pages
 
 
@@ -34,40 +34,32 @@ Knowledge-Based Authentication
 
 Verifying users' identities based on whether or not they know something
 
-  • A password
-  ● A PIN
-  • ● A security question
+   password, PIN, security question
 
 
 Main Problems with Knowledge-Based Authentication
   • Reliant on the strength of the password
   • Can be guessable or searchable
 
-Ownership-Based Authentication
+**Ownership-Based Authentication**
 Verifying users' identities based on whether or not they have something:
 
-    An email address
-  ● A mobile phone
-  ● An OTP fob or app
+    email address, mobile phone, OTP fob, or app
 
 
 Main Problems with Ownership-Based Authentication
-  • Some rely indirectly on knowledge-based strategies (that is,
-    someone could guess your email password)
+  • Some rely indirectly on knowledge-based strategies (that is, someone could guess your email password)
     Physical devices can be stolen
     Physical devices can be lost
 
-Two-Factor Authentication
-Combines more than one authentication method usually knowledge based and ownership based
+**Two-Factor Authentication**
+Combines more than one authentication method usually knowledge-based and ownership based
 
 => authenticator app or methods
 
-IP & Location Based Authentication
+IP & Location-Based Authentication
 
-
-Biological-Based Authentication
+**Biological-Based Authentication**
 Verifying users' identities based on hard-to-fake biological characteristics
-   ● Facial recognition
-  ● Fingerprint readers
-  ● Eye scans
+   Facial recognition, Fingerprint readers, Eye scans
 
