@@ -30,11 +30,9 @@ User Authentication Management using JSON WEB Token, Email Verification Process,
   3 )   The biological test
 
 
-Knowledge-Based Authentication
+**Knowledge-Based Authentication**
 
-Verifying users' identities based on whether or not they know something
-
-   password, PIN, security question
+Verifying users' identities based on  a password, PIN, and security question
 
 
 Main Problems with Knowledge-Based Authentication
@@ -42,15 +40,13 @@ Main Problems with Knowledge-Based Authentication
   • Can be guessable or searchable
 
 **Ownership-Based Authentication**
-Verifying users' identities based on whether or not they have something:
-
-    email address, mobile phone, OTP fob, or app
+Verifying users' identities based on email address, mobile phone, OTP fob, or app
 
 
 Main Problems with Ownership-Based Authentication
   • Some rely indirectly on knowledge-based strategies (that is, someone could guess your email password)
-    Physical devices can be stolen
-    Physical devices can be lost
+    Physical devices can be stolen or lost
+   
 
 **Two-Factor Authentication**
 Combines more than one authentication method usually knowledge-based and ownership based
@@ -60,6 +56,5 @@ Combines more than one authentication method usually knowledge-based and ownersh
 IP & Location-Based Authentication
 
 **Biological-Based Authentication**
-Verifying users' identities based on hard-to-fake biological characteristics
-   Facial recognition, Fingerprint readers, Eye scans
+Verifying users' identities based on hard-to-fake biological characteristics Facial recognition, Fingerprint readers, Eye scans
 
